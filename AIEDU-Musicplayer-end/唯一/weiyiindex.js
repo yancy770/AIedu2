@@ -5,23 +5,12 @@ class MusicPlayer {
             // 歌曲信息在这里修改
             songObjArr: [
                 {
-                    title: "这世界那么多人",  // 歌曲名
+                    title: "唯一",  // 歌曲名
                     author: "孙燕姿",   // 歌手
-                    imgSrc: "./public/images/孙燕姿.jpg", // 图片路径
-                    url: "./public/audios/01.mp3", // 音频路径
+                    imgSrc: "AIEDU-Musicplayer-end/唯一/public/images/01.jpg", // 图片路径
+                    url: "AIEDU-Musicplayer-end/唯一/public/audios/01.mp3", // 音频路径
                 },
-                {
-                    title: "独家记忆",
-                    author: "陈小春",
-                    imgSrc: "./public/images/02.jpg",
-                    url: "./public/audios/02.mp3",
-                },
-                {
-                    title: "Lemon Tree",
-                    author: "Fool's Garden",
-                    imgSrc: "./public/images/03.jpg",
-                    url: "./public/audios/03.mp3",
-                },
+               
             ],
             currentIndex: 0,
         }
